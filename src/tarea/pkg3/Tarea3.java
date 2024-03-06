@@ -99,7 +99,7 @@ class Main {
         System.out.println("Por favor, introduce el numero de lados de la figura 3 para un triangulo, 4 para un cuadrado, 5 para un pentagono):");
         int numeroDeLados = scanner.nextInt();
 
-        System.out.println("Por favor, introduce el valor del lado o la base y la altura para el triángulo");
+        System.out.println("Por favor, introduce el valor del lado o la base y la altura para el triangulo");
         double valor1 = scanner.nextDouble();
         double valor2 = (numeroDeLados == 3) ? scanner.nextDouble() : valor1;
 
